@@ -18,8 +18,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Pull in leimao.github.io articles
-        uses: leimao/blog-post-workflow@v1
+      - name: Pull in astroxu.github.io articles
+        uses: astroxu/blog-post-workflow@v1
         with:
           feed_list: "https://astroxu.github.io/feed.xml"
           max_post_count: 8
